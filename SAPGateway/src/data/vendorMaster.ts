@@ -1,0 +1,147 @@
+export interface Vendor {
+  VendorID: string;
+  Name: string;
+  SearchTerm: string;
+  AccountGroup: string;
+  CompanyCode: string;
+  Currency: string;
+  PaymentTerms: string;
+  CountryCode: string;
+  City: string;
+  PostalCode: string;
+  Street: string;
+  TaxNumber: string;
+  VATRegistration: string;
+  ReconciliationAccount: string;
+  IsActive: boolean;
+  CreatedDate: string;
+}
+
+export const vendors: Vendor[] = [
+  {
+    VendorID: "V100001",
+    Name: "Acme Office Supplies Ltd",
+    SearchTerm: "ACME",
+    AccountGroup: "LIEF",
+    CompanyCode: "GB01",
+    Currency: "GBP",
+    PaymentTerms: "NT30",
+    CountryCode: "GB",
+    City: "London",
+    PostalCode: "EC2A 4PX",
+    Street: "12 Finsbury Square",
+    TaxNumber: "GB123456789",
+    VATRegistration: "GB123456789",
+    ReconciliationAccount: "160000",
+    IsActive: true,
+    CreatedDate: "2015-03-01",
+  },
+  {
+    VendorID: "V100002",
+    Name: "Premier Travel Management GmbH",
+    SearchTerm: "PREMIER",
+    AccountGroup: "LIEF",
+    CompanyCode: "GB01",
+    Currency: "EUR",
+    PaymentTerms: "NT14",
+    CountryCode: "DE",
+    City: "Frankfurt",
+    PostalCode: "60313",
+    Street: "Kaiserstrasse 54",
+    TaxNumber: "DE987654321",
+    VATRegistration: "DE987654321",
+    ReconciliationAccount: "160000",
+    IsActive: true,
+    CreatedDate: "2017-06-15",
+  },
+  {
+    VendorID: "V100003",
+    Name: "CloudSoft Solutions Ltd",
+    SearchTerm: "CLOUDSOFT",
+    AccountGroup: "LIEF",
+    CompanyCode: "GB01",
+    Currency: "GBP",
+    PaymentTerms: "NT30",
+    CountryCode: "GB",
+    City: "Manchester",
+    PostalCode: "M2 3HZ",
+    Street: "1 Spinningfields",
+    TaxNumber: "GB345678901",
+    VATRegistration: "GB345678901",
+    ReconciliationAccount: "160000",
+    IsActive: true,
+    CreatedDate: "2019-01-10",
+  },
+  {
+    VendorID: "V100004",
+    Name: "Marriott Hotels International",
+    SearchTerm: "MARRIOTT",
+    AccountGroup: "LIEF",
+    CompanyCode: "GB01",
+    Currency: "GBP",
+    PaymentTerms: "NT7",
+    CountryCode: "GB",
+    City: "London",
+    PostalCode: "W1K 6JP",
+    Street: "Grosvenor Square",
+    TaxNumber: "GB567890123",
+    VATRegistration: "GB567890123",
+    ReconciliationAccount: "160000",
+    IsActive: true,
+    CreatedDate: "2016-09-22",
+  },
+  {
+    VendorID: "V100005",
+    Name: "Avanti West Coast Ltd",
+    SearchTerm: "AVANTI",
+    AccountGroup: "LIEF",
+    CompanyCode: "GB01",
+    Currency: "GBP",
+    PaymentTerms: "NT30",
+    CountryCode: "GB",
+    City: "Birmingham",
+    PostalCode: "B1 1BB",
+    Street: "Navigation Street",
+    TaxNumber: "GB789012345",
+    VATRegistration: "GB789012345",
+    ReconciliationAccount: "160000",
+    IsActive: true,
+    CreatedDate: "2020-03-15",
+  },
+  {
+    VendorID: "V100006",
+    Name: "Addison Lee Group",
+    SearchTerm: "ADDISONLEE",
+    AccountGroup: "LIEF",
+    CompanyCode: "GB01",
+    Currency: "GBP",
+    PaymentTerms: "NT14",
+    CountryCode: "GB",
+    City: "London",
+    PostalCode: "N1 9GU",
+    Street: "The Bower, 211 Old Street",
+    TaxNumber: "GB890123456",
+    VATRegistration: "GB890123456",
+    ReconciliationAccount: "160000",
+    IsActive: true,
+    CreatedDate: "2018-07-01",
+  },
+  {
+    VendorID: "V100007",
+    Name: "Legacy Print Solutions",
+    SearchTerm: "LEGACYPRINT",
+    AccountGroup: "LIEF",
+    CompanyCode: "GB01",
+    Currency: "GBP",
+    PaymentTerms: "NT60",
+    CountryCode: "GB",
+    City: "Leeds",
+    PostalCode: "LS1 4DL",
+    Street: "Park Row",
+    TaxNumber: "GB901234567",
+    VATRegistration: "GB901234567",
+    ReconciliationAccount: "160000",
+    IsActive: false,
+    CreatedDate: "2012-05-01",
+  },
+];
